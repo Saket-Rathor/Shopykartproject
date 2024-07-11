@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "nodemailer": "6.9.14",
     "axios": "^1.7.2",
     "firebase": "^10.12.2",
     "firebaseui": "^6.1.0",

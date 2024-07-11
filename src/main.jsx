@@ -10,7 +10,6 @@ import App from "./App";
 import Login from "./component/login/login";
 import Home from "./component/home/home";
 import Checkout from "./component/checkout/checkout";
-import Payment from "./component/paymentgateway/payment";
 import Thankyou from "./component/thankyou/thankyou";
 
 const router = createBrowserRouter([
@@ -32,10 +31,7 @@ const router = createBrowserRouter([
     path: "contactus",
     element: <div>Contact us</div>,
   },
-  {
-    path: "payment",
-    element: <Payment/>,
-  },
+
   {
     path: "Thankyou",
     element: <Thankyou/>,
